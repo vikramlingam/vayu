@@ -1,6 +1,6 @@
 # Vayu Voice AI 🎤⚡
 
-**Vayu** is a real-time voice AI assistant that lets you have natural conversations with an AI. Just speak, and it responds with natural-sounding voice—like talking to a friend who happens to know everything.
+**Vayu** is a real-time voice AI assistant that lets you have natural conversations with an AI. Just speak, and it responds with natural-sounding voice like talking to a friend who happens to know everything.
 
 ![Demo](https://img.shields.io/badge/Status-Ready-green) ![Python](https://img.shields.io/badge/Python-3.10+-blue) ![License](https://img.shields.io/badge/License-MIT-yellow)
 

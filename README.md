@@ -62,11 +62,11 @@ Vayu uses an **Actor Model** with three concurrent pipelines for ultra-low laten
 
 | Feature | Benefit |
 |---------|---------|
-| **3 Async Loops** | Each stage runs independently—LLM can generate while TTS is speaking |
+| **3 Async Loops** | Each stage runs independently. LLM can generate while TTS is speaking |
 | **Queue-based Communication** | Loops don't wait for each other; data flows through queues |
 | **Streaming Everything** | LLM streams tokens → TTS streams audio → You hear words as they're generated |
 | **Local STT/TTS** | No network latency for speech processing |
-| **Smart VAD** | Learns your speaking pattern—waits longer when you pause and resume |
+| **Smart VAD** | Learns your speaking pattern, waits longer when you pause and resume |
 
 ---
 
@@ -109,8 +109,8 @@ voice agent/
 
 ```bash
 cd ~/Desktop
-git clone <your-repo> "voice agent"
-cd "voice agent"
+git clone [<your-repo> "voice agent"](https://github.com/vikramlingam/vayu)
+cd vayu
 ```
 
 ### Step 2: Create Virtual Environment

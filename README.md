@@ -175,7 +175,7 @@ Enter number (default: af_bella):
 
 1. **Speak** - Say anything naturally
 2. **Pause** - Wait 1.5 seconds (or longer if you've been speaking a lot)
-3. **Listen** - You'll hear a chime, then Vayu responds
+3. **Listen** - You will hear a chime, then Vayu responds 
 
 ### Smart Pause Detection
 
@@ -273,7 +273,7 @@ Vayu uses **MFCC Voice Fingerprinting** to prevent hearing itself:
 1. Before playing audio, store its spectral fingerprint
 2. When microphone captures audio during playback, compare fingerprints
 3. If similarity > 50%, it's echo—ignore it
-4. If different, it's the user speaking—process it
+4. If different, it's the user speaking—process it.
 
 ---
 
@@ -288,6 +288,6 @@ MIT License - Use freely, modify as needed.
 - [faster-whisper](https://github.com/SYSTRAN/faster-whisper) - Fast Whisper implementation
 - [kokoro-onnx](https://github.com/thewh1teagle/kokoro-onnx) - High-quality TTS
 - [Silero VAD](https://github.com/snakers4/silero-vad) - Accurate voice detection
-- [OpenRouter](https://openrouter.ai/) - Access to multiple LLMs
+- [OpenRouter](https://openrouter.ai/) - Access to multiple LLMs.
 
 ---
